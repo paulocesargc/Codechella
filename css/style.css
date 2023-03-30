@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+.cabecalho {
+    height: 120px;
+    background-color: #2E7BA2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__menu {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    white-space: nowrap;
+}
+
+.cabecalho__menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }

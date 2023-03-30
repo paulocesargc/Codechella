@@ -1,0 +1,12 @@
+.cabecalho {
+    display: grid;
+    grid-template-columns: 5% 25% 25% 40% 5%;
+}
+
+.cabecalho__logo {
+    grid-column: 2/ span 1;
+}
+
+.cabecalho__menu {
+    grid-column: 4/ span 1;
+}
